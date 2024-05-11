@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.hero1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    padding: 25px;
+    align-items: center;
+}
+
+.p_1 {
+    width: 100%;
+    font-size: 2vw;
+    font-weight: 600;
+    margin: 2% 0px;
+}
+
+h1 {
+    font-size: 4vw;
+    margin: 4% 0px;
+}
+
+.p_2 {
+    font-size: 3vw;
+    margin: 0px;
+}
+.cont_btn{
+    width: 100%;
+    margin: 3% 0px;
+}
+button{
+    width: 40%;
+    padding: 8px 4px;
+    margin: 0px 4px;
+    border-radius: 5px;
+    font-size: 1.5vw;
+    font-weight: 600;
+    border: 2px solid black;
+}
+.btnone{
+    background-color: black;
+    color: white;
+}
+.btnone:hover{
+    background-color: white;
+    color: black;
+}
+.btntwo{
+    background-color: white;
+    color: black;
+}
+.btntwo:hover{
+    background-color: black;
+    color: white;
+}
+.hero2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 80%;
+    box-shadow: 13px -11px 2px #585151;
+}
+
+@media screen and (max-width: 768px) {
+    .hero{
+        display: block;
+    }
+    .hero1{
+        width: 100%;
+        padding: 10px;
+    }
+    .hero2{
+        width: 100%;
+        padding: 10px;
+    }   
+    .p_1{
+        font-size: 3.8vw;
+        font-weight: 600;
+        margin: 1.5% 0px
+    }
+    h1 {
+        width: 100%;
+        font-size: 8vw;
+        margin: 2.5% 0px;
+    }
+    .p_2 {
+        font-size: 7vw;
+        margin: 0px;
+    }
+    button{
+        width: 30%;
+        padding: 8px 4px;
+        margin: 0px 2%;
+        font-size: 2.5vw;
+    }
+}
