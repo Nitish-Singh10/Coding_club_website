@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -33,7 +33,7 @@ body{
     color: #fff;
 }
 
-#c-btn{
+#c-btn {
     color: black;
     background-color: white;
     padding: 8px 9px;
@@ -79,11 +79,13 @@ h1 {
     font-size: 3.5vw;
     margin: 0px;
 }
-.cont_btn{
+
+.cont_btn {
     width: 100%;
     margin: 7% 0px;
 }
-button{
+
+button {
     width: 40%;
     padding: 8px 4px;
     margin: 0px 4px;
@@ -92,59 +94,133 @@ button{
     font-weight: 600;
     border: 2px solid black;
 }
-.btnone{
+
+.btnone {
     background-color: black;
     color: white;
 }
-.btnone:hover{
+
+.btnone:hover {
     background-color: white;
     color: black;
 }
-.btntwo{
+
+.btntwo {
     background-color: white;
     color: black;
 }
-.btntwo:hover{
+
+.btntwo:hover {
     background-color: black;
     color: white;
 }
+
 .hero2 {
     width: 50%;
     display: flex;
     justify-content: center;
 }
-.hero2 img{
+
+.hero2 img {
     width: 80%;
     box-shadow: 13px -11px 2px #585151;
 }
-.container{
+
+.container {
     background-color: #E6E6E6;
 }
-.about_title p{
+
+.about_title p {
     margin: 0px;
     text-align: center;
     padding-top: 23px;
     font-size: 2.5vw;
     font-weight: 600;
 }
-.about{
+
+.about {
     display: flex;
 }
-.about1{
+
+.about1 {
     width: 40%;
 }
-.about1 img{
-    width:80%;
-    margin:10%;
+
+.about1 img {
+    width: 80%;
+    margin: 10%;
     border-radius: 7px;
 }
-.about2{
+
+.about2 {
     width: 60%;
 }
-.about2 p{
+
+.about2 p {
     margin: 0px;
     padding: 5% 10% 5% 0%;
     font-size: 2vw;
+    text-align: justify;
+}
+
+.blog {
+    background-color: #000000;
+    color: #ffffff;
+    height: 540px;
+}
+
+.blog-p1 {
+    font-size: 3vw;
+    text-align: center;
+    margin: 0px;
+    padding-top: 50px;
+    font-weight: 600;
+}
+
+.blog-p {
+    text-align: center;
+    font-size: 2.3vw;
+}
+
+.blog-cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.blog-item {
+    position: relative;
+    top: 54px;
+    width: 28%;
+    background-color: #D9D9D9;
+    border-radius: 12px;
+}
+
+.blog-item img {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.blog-item h3 {
+    color: #000000;
+    padding-left: 12px;
+}
+
+.blog-item p {
+    color: #000000;
+    padding: 0px 12px;
+    text-align: justify;
+}
+
+.blog-item h5 {
+    color: #000000;
+    margin-bottom: 0px;
+    padding: 0px 12px;
+}
+
+#by {
+    margin-top: 0px;
+    font-size: 13px;
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -170,56 +246,96 @@ button{
     .navbar-item {
         margin: 10px 0;
     }
-    .hero{
+
+    .hero {
         display: block;
     }
-    .hero1{
+
+    .hero1 {
         width: 100%;
         padding: 0px;
     }
-    .hero2{
+
+    .hero2 {
         width: 100%;
-        padding: 10px 0px ;
-    }   
-    .p_1{
+        padding: 10px 0px;
+    }
+
+    .p_1 {
         font-size: 3.8vw;
         font-weight: 600;
         margin: 3% 0px 1.5% 0px;
     }
+
     h1 {
         width: 100%;
         font-size: 8vw;
         margin: 2.5% 0px;
     }
+
     .p_2 {
         font-size: 7vw;
         margin: 0px;
     }
-    button{
+
+    button {
         width: 30%;
         padding: 8px 4px;
         margin: 0px 2%;
         font-size: 2.5vw;
     }
-    .about{
+
+    .about {
         display: block;
     }
-    .about_title p{
+
+    .about_title p {
         font-size: 3.5vw;
     }
-    .about1{
+
+    .about1 {
         width: 100%;
     }
-    .about2{
+
+    .about2 {
         width: 100%;
     }
-    .about1 img{
+
+    .about1 img {
         width: 70%;
         margin: 5% 15% 0%;
     }
-    .about2 p{
+
+    .about2 p {
         margin: 0px;
         padding: 3% 5%;
         font-size: 3vw;
+        text-align: justify;
+    }
+
+    .blog {
+        height: auto;
+    }
+
+    .blog-cont {
+        display: block;
+        padding: 5% 10%;
+    }
+
+    .blog-item {
+        position: unset;
+        width: 100%;
+        background-color: #D9D9D9;
+        border-radius: 12px;
+        margin-bottom: 30px;
+    }
+
+    .blog-p1 {
+        font-size: 5vw;
+
+    }
+
+    .blog-p {
+        font-size: 2.5vw;
     }
 }
